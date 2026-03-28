@@ -23,7 +23,7 @@ if boton_enviar:
         # Aquí es donde la magia ocurre: Guardamos localmente por ahora
         # Pero para que sea permanente en Google Sheets sin errores, 
         # lo ideal es usar Form de Google o una API Key.
-        st.success("✅ Registro capturado. ¡Eres un crack, Joel!")
+        st.success("✅ Registro capturado.")
         st.balloons()
         
         # Mostramos lo que se guardaría
