@@ -7,7 +7,7 @@ from datetime import datetime
 st.set_page_config(page_title="Gestor Nube Pro", page_icon="☁️")
 
 # URL de tu hoja (PEGA TU LINK AQUÍ ABAJO)
-URL_HOJA = "TU_LINK_DE_GOOGLE_SHEETS_AQUÍ"
+URL_HOJA = "https://docs.google.com/spreadsheets/d/1M29Y6MMrAkYnLp2JolJKsC6IZXtz1DGOrwr42bCOkCY/edit?usp=sharing"
 
 # Conexión con Google Sheets
 conn = st.connection("gsheets", type=GSheetsConnection)
